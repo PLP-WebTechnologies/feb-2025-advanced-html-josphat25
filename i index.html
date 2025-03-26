@@ -1,0 +1,109 @@
+i index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered List with Roman Numerals</title>
+</head>
+<body>
+    <h1>My Roman Numerals List</h1>
+    <ol type="I">
+        <li>Forest</li>
+        <li>River</li>
+        <li>Trees</li>
+        <li>Flowing Water</li>
+    </ol>
+
+    <h2>Here's a Beautiful Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/707915/pexels-photo-707915.jpeg" alt="Nature Image from Pexels" width="600">
+
+    <h2>Contacts Table</h2>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Kinyua</td>
+                <td>123-00100, GPO</td>
+                <td>+254788546235</td>
+                <td>johnkinyua@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Odhiambo</td>
+                <td>456-40100, Kisumu</td>
+                <td>+254722768900</td>
+                <td>janeodhia@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Alunga</td>
+                <td>789-50100, Kakame</td>
+                <td>(555) 345-6789</td>
+                <td>michaela@example.com</td>
+            </tr>
+            <tr>
+                <td>ALI Yusuf</td>
+                <td>3rd Avenue, Eastleigh</td>
+                <td>0-103456789</td>
+                <td>aliyus@example.com</td>
+            </tr>
+            <tr>
+                <td>Chris Mwenda</td>
+                <td>134-00519, Machakos</td>
+                <td>+254733889900</td>
+                <td>chrismwe@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a secure password" required minlength="8">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="membership">Membership Level:</label>
+        <select id="membership" name="membership" required>
+            <option value="basic">Basic</option>
+            <option value="premium">Premium</option>
+            <option value="vip">VIP</option>
+        </select>
+        <br><br>
+
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required> I agree to the <a href="#">terms and conditions</a>.
+        </label>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
