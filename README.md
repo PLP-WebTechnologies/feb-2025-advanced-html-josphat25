@@ -29,7 +29,7 @@ Apply multimedia elements such as audio and video.
 
 - # Add an external image from pexels.com
    <h2>Here's a Beautiful Image from Pexels</h2>
-    <img src="https://images.pexels.com/photos/34950/pexels-photo-34950.jpeg" alt="Nature Image from Pexels" width="600">
+    <img src="https://images.pexels.com/photos/34950/pexels-photo-34950.jpeg](https://images.pexels.com/photos/707915/pexels-photo-707915.jpeg" alt="Nature Image from Pexels" width="600">
 
 </body>
 </html>
@@ -48,34 +48,34 @@ Apply multimedia elements such as audio and video.
         </thead>
         <tbody>
             <tr>
-                <td>John Doe</td>
-                <td>123 Main St, Springfield</td>
-                <td>(555) 123-4567</td>
-                <td>johndoe@example.com</td>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Mobile</td>
+                <td>Email</td>
             </tr>
             <tr>
-                <td>Jane Smith</td>
-                <td>456 Oak St, Rivertown</td>
-                <td>(555) 234-5678</td>
-                <td>janesmith@example.com</td>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Mobile</td>
+                <td>Email</td>
             </tr>
             <tr>
-                <td>Michael Johnson</td>
-                <td>789 Pine St, Hilltop</td>
-                <td>(555) 345-6789</td>
-                <td>michaelj@example.com</td>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Mobile</td>
+                <td>Email</td>
             </tr>
             <tr>
-                <td>Emily Davis</td>
-                <td>101 Maple St, Greenfield</td>
-                <td>(555) 456-7890</td>
-                <td>emilydavis@example.com</td>
+                <td>Name/td>
+                <td>Address</td>
+                <td>Mobile</td>
+                <td>Email</td>
             </tr>
             <tr>
-                <td>Chris Lee</td>
-                <td>202 Birch St, Lakeside</td>
-                <td>(555) 567-8901</td>
-                <td>chrislee@example.com</td>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Mobile</td>
+                <td>Email</td>
             </tr>
         </tbody>
     </table>
